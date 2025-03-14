@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Halaman Beranda</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aidilia Fitriasari">
+        <meta name="nim" content="243307062">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            header {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: #ccc;
+                padding: 20px;
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 600px;
+            }
+            section ::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Judul Website</h2>
+        </header>
+
+        <section>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gambar.html">Gambar</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="svg.html">SVG</a></li>
+                <li><a href="canvas.html">Canvas</a></li>
+            </ul>
+            </nav>
+
+            <article>
+                <h1>Judul Artikel</h1>
+                <h1>Gambar Pemandangan</h1>
+                <img src="gambar/gambar.jpg" alt="Gambar Air Terjun di Tebing" width="250px" height="150px">
+                <img src="gambar/gambar1.jpg" alt="Gambar Air Terjun di Pegunungan" width="250px" height="150px">
+                <img src="gambar/gambar2.jpg" alt="Gambar Pegunungan Pink" width="250px" height="150px">
+                <img src="gambar/gambar4.jpg" alt="Gambar Pantai yang Indah" width="250px" height="150px">
+                <img src="gambar/gambar5.jpg" alt="Gambar Air Terjun dan Gunung Pink" width="250px" height="150px">
+                <img src="gambar/gambar6.jpg" alt="Gambar Pantai yang Cerah" width="250px" height="150px">
+                <p>Mempelajari cara menampilkan gambar pemandangan dengan struktur terdiri dari header, navigasi,
+                konten utama, dan footer. Gambar-gambar ditampilkan dalam artikel menggunakan tag img dengan atribut src untuk sumber gambar, 
+                alt untuk deskripsi, serta ukuran tetap width="250px" dan height="150px". Tata letaknya menggunakan CSS dengan float untuk memisahkan
+                navigasi dan konten.
+                </p>
+            </article>
+        </section>
+        
+        <footer>
+            <p>aidiliafitria811@gmail.com</p>
+        </footer>
+    </body>
+</html>
